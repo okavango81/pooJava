@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="created project">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculadoraDeJuros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OlaMergulhador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="class 1.2">
+      <change afterPath="$PROJECT_DIR$/src/banco/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banco/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banco/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +28,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/OlaMergulhador.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2aFLnqr7ltBiRrbcQqClacEjEHa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,10 +48,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CalculadoraDeJuros">
+  <component name="RunManager">
     <configuration name="CalculadoraDeJuros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculadoraDeJuros" />
       <module name="pooJava" />
@@ -82,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703909552055</updated>
-      <workItem from="1703909553201" duration="3449000" />
+      <workItem from="1703909553201" duration="3715000" />
+      <workItem from="1704227519934" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="created project">
       <option name="closed" value="true" />
@@ -92,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703909584465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="class 1.2">
+      <option name="closed" value="true" />
+      <created>1703913199575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703913199575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +109,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created project" />
-    <option name="LAST_COMMIT_MESSAGE" value="created project" />
+    <MESSAGE value="class 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 1.2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/banco/Principal.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
