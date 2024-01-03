@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="class 1.2">
-      <change afterPath="$PROJECT_DIR$/src/banco/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/banco/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -84,6 +87,7 @@
       <updated>1703909552055</updated>
       <workItem from="1703909553201" duration="3715000" />
       <workItem from="1704227519934" duration="2846000" />
+      <workItem from="1704244659253" duration="1947000" />
     </task>
     <task id="LOCAL-00001" summary="created project">
       <option name="closed" value="true" />
