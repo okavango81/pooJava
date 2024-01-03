@@ -50,7 +50,7 @@ public class Conta {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
+//    public void setSaldo(double saldo) {
+//        this.saldo = saldo;
+//    }
 }

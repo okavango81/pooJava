@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="class 1.2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="class 1.5">
       <change beforePath="$PROJECT_DIR$/src/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +86,7 @@
       <workItem from="1704227519934" duration="2846000" />
       <workItem from="1704244659253" duration="1947000" />
       <workItem from="1704309005129" duration="35000" />
-      <workItem from="1704309080438" duration="1651000" />
+      <workItem from="1704309080438" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="created project">
       <option name="closed" value="true" />
@@ -108,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703913199575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class 1.5">
+      <option name="closed" value="true" />
+      <created>1704310787088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704310787088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +121,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created project" />
     <MESSAGE value="class 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 1.2" />
+    <MESSAGE value="class 1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 1.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
