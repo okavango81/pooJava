@@ -2,16 +2,10 @@ package banco;
 
 public class Principal {
     public static void main(String[] args) {
-        Pessoa euTitular = new Pessoa();
-        euTitular.setNome("Edvaldo Leite");
-        euTitular.setDocumento("22117214860");
-
+        Pessoa euTitular = new Pessoa("Edvaldo Leite", "22117214860");
         Conta minhaConta = new Conta(euTitular, 1234, 121212, 0.0);
 
-        Pessoa voceTitular = new Pessoa();
-        voceTitular.setNome("Luciene Leite");
-        voceTitular.setDocumento("27158787885");
-
+        Pessoa voceTitular = new Pessoa("Luciene Leite", "27158787885");
         Conta suaConta = new Conta(voceTitular, 1234, 212121, 0.0);
 
 
