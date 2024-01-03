@@ -6,6 +6,16 @@ public class Conta {
     private int numero;
     private double saldo;
 
+    public Conta() {
+    }
+
+    public Conta(Pessoa titular, int agencia, int numero, double saldo) {
+        this.titular = titular;
+        this.agencia = agencia;
+        this.numero = numero;
+        this.saldo = saldo;
+    }
+
     void depositar(double valor){
         if (valor <= 0){
             throw new IllegalArgumentException("O valor deve ser maior que zero");
@@ -26,31 +36,16 @@ public class Conta {
         return titular;
     }
 
-    public void setTitular(Pessoa titular) {
-        this.titular = titular;
-    }
-
     public int getAgencia() {
         return agencia;
-    }
-
-    public void setAgencia(int agencia) {
-        this.agencia = agencia;
     }
 
     public int getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
     public double getSaldo() {
         return saldo;
     }
 
-//    public void setSaldo(double saldo) {
-//        this.saldo = saldo;
-//    }
 }

@@ -2,25 +2,18 @@ package banco;
 
 public class Principal {
     public static void main(String[] args) {
-        Conta minhaConta = new Conta();
         Pessoa euTitular = new Pessoa();
         euTitular.setNome("Edvaldo Leite");
         euTitular.setDocumento("22117214860");
 
-        minhaConta.setTitular(euTitular);
-        minhaConta.setAgencia(1234);
-        minhaConta.setNumero(6354867);
-//        minhaConta.saldo = 15_000;
+        Conta minhaConta = new Conta(euTitular, 1234, 121212, 0.0);
 
-        Conta suaConta = new Conta();
         Pessoa voceTitular = new Pessoa();
         voceTitular.setNome("Luciene Leite");
         voceTitular.setDocumento("27158787885");
 
-        suaConta.setTitular(voceTitular);
-        suaConta.setAgencia(5678);
-        suaConta.setNumero(587489);
-//        suaConta.saldo = 35_000;
+        Conta suaConta = new Conta(voceTitular, 1234, 212121, 0.0);
+
 
         System.out.println("Titular: " + minhaConta.getTitular().getNome());
         System.out.println("CPF: " + minhaConta.getTitular().getDocumento());
