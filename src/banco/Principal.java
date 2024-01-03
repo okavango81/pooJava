@@ -15,7 +15,7 @@ public class Principal {
         System.out.println("Conta: " + minhaConta.getNumero());
         System.out.printf("Saldo R$: %,.2f%n", minhaConta.getSaldo());
 
-        System.out.println("********************************************");
+        System.out.println("***********************");
 
         System.out.println("Titular: " + suaConta.getTitular().getNome());
         System.out.println("CPF: " + suaConta.getTitular().getDocumento());
