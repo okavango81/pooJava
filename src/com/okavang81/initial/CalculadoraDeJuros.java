@@ -1,3 +1,5 @@
+package com.okavang81.initial;
+
 public class CalculadoraDeJuros {
     public static void main(String[] args) {
         double amountInvested = 10_000;

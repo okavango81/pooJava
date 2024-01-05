@@ -1,4 +1,4 @@
-package banco;
+package banco.com.okavango81.entities;
 
 public class Pessoa {
     public Pessoa() {

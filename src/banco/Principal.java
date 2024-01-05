@@ -1,5 +1,8 @@
 package banco;
 
+import banco.com.okavango81.entities.Conta;
+import banco.com.okavango81.entities.Pessoa;
+
 public class Principal {
     public static void main(String[] args) {
         Pessoa euTitular = new Pessoa("Edvaldo Leite", "22117214860");

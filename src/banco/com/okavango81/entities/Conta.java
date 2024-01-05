@@ -1,4 +1,4 @@
-package banco;
+package banco.com.okavango81.entities;
 
 public class Conta {
     private Pessoa titular;
@@ -16,14 +16,14 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    void depositar(double valor){
+    public void depositar(double valor){
         if (valor <= 0){
             throw new IllegalArgumentException("O valor deve ser maior que zero");
         }else
             saldo += valor;
     }
 
-    void sacar(double valor) {
+    public void sacar(double valor) {
         if (valor <= 0){
             throw new IllegalArgumentException("O valor deve ser maior que zero");
         } else if (saldo - valor < 0) {
