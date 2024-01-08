@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="class 1.5.4">
+    <list default="true" id="b10ed193-fde4-4d03-9258-fff427ee12fb" name="Changes" comment="class 1.6">
+      <change afterPath="$PROJECT_DIR$/src/banco/com/okavango81/entities/ContaEspecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banco/com/okavango81/entities/ContaInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/okavango81/entities/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/okavango81/entities/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/banco/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/banco/com/okavango81/entities/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/com/okavango81/entities/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/JETBRAINS/WS-INTELLIJ/pooJava",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JETBRAINS/WS-INTELLIJ/pooJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CalculadoraDeJuros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.okavang81.initial.CalculadoraDeJuros" />
@@ -95,7 +96,8 @@
       <workItem from="1704309005129" duration="35000" />
       <workItem from="1704309080438" duration="4703000" />
       <workItem from="1704418591521" duration="66000" />
-      <workItem from="1704422103490" duration="304000" />
+      <workItem from="1704422103490" duration="1087000" />
+      <workItem from="1704677368108" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary="created project">
       <option name="closed" value="true" />
@@ -161,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704313390802</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="class 1.6">
+      <option name="closed" value="true" />
+      <created>1704423116454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704423116454</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +185,7 @@
     <MESSAGE value="class 1.5.2" />
     <MESSAGE value="class 1.5.3" />
     <MESSAGE value="class 1.5.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 1.5.4" />
+    <MESSAGE value="class 1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 1.6" />
   </component>
 </project>

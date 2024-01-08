@@ -26,10 +26,14 @@ public class Conta {
     public void sacar(double valor) {
         if (valor <= 0){
             throw new IllegalArgumentException("O valor deve ser maior que zero");
-        } else if (saldo - valor < 0) {
+        } else if (saldoDisponivel() - valor < 0) {
             throw  new IllegalStateException("Saldo insuficiente");
         }  else
             saldo -= valor;
+    }
+
+    public double saldoDisponivel(){
+        return getSaldo();
     }
 
     public Pessoa getTitular() {
